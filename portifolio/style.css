@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("paisagem\ 1.jpeg")
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 30px;
+
+}
+input[type="checkbox"]  { display: none;
+    
+}
+nav{
+    background-color: rgba(16,16,16,.5 );
+    width: 320px;
+    height: 700px;
+    left: -320px;
+    position: relative;
+    transition: all .8s;
+}
+a {
+    
+    display: block;
+    padding: 25px 5px;
+    color: aliceblue;
+}
+a:hover {
+    background-color: rgb(184, 177, 177);
+    color: black;
+    font-size: 25px;
+}
+label{
+    
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+ul {
+    
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(320px);
+
+}
+    
